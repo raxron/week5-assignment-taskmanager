@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  border-bottom: solid 0.1em lightgray;
+}
+.remove-btn {
+  border: none;
+  background-color: red;
+  color: white;
+  height: 2em;
+  margin-left: 1em;
+}
+.edit-btn {
+  background-color: green;
+  color: white;
+  height: 2em;
+  border: none;
+}
